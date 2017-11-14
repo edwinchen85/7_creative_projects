@@ -114,6 +114,7 @@ section {
 
 body {
   line-height: 1;
+  font-family: 'Montserrat', sans-serif;
 }
 
 ol,
@@ -192,4 +193,43 @@ ol li {
 * {
   box-sizing: border-box;
   outline: 0;
+}
+
+
+/* HEADER */
+
+header {
+  background: red;
+}
+
+.nav-wrapper {
+  max-width: 1200px;
+  background: black;
+  margin: 0 auto;
+  position: relative;
+  padding: 7px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav.nav-wrapper ul li {
+  display: inline-block;
+  padding: 0 10px;
+  margin-bottom: 0;
+}
+
+nav.nav-wrapper ul li a {
+  font-size: 17px;
+  line-height: 22px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 3px;
+  transition: .3s;
+}
+
+nav.nav-wrapper ul li a:hover {
+  border-bottom-color: white;
 }
