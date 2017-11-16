@@ -115,6 +115,7 @@ section {
 body {
   line-height: 1;
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 
 ol,
@@ -139,6 +140,10 @@ q:after {
 
 
 /*HELPER CLASS BEGIN*/
+
+img {
+  max-width: 100%;
+}
 
 .alignLeft {
   float: left;
@@ -214,9 +219,10 @@ header.sticky {
   top: 0;
   left: 0;
   right: 0;
-  background: green;
+  background: rgba(0,0,0,.85);
   transform: translateY(-200%);
   transition: .5s ease-out;
+  z-index: 5;
 }
 
 body.scroll header.sticky {
@@ -319,4 +325,42 @@ ul#scene {
 
 .contact-btn {
   margin-left: 30px;
+}
+
+
+/* Masonry section */
+.masonry-grid {
+  position: relative;
+  margin-right: -32px;
+}
+
+.grid {
+  margin: 0 auto;
+}
+
+.grid-item {
+  width: 450px;
+  margin-bottom: 10px;
+}
+
+.tall-img {
+  height: 680px;
+}
+
+h2.sub-title {
+  position: relative;
+  display: block;
+  margin: 70px auto;
+  text-align: center;
+  font-size: 35px;
+  line-height: 40px;
+}
+
+h2.sub-title::after {
+  display: block;
+  height: 2px;
+  background-color: black;
+  content: "";
+  width: 100px;
+  margin: 30px auto 0;
 }
