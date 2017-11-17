@@ -402,4 +402,27 @@ section.beating-heart p {
   fill: red;
   width: 150px;
   margin: 0 50px;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  15% {
+    transform: scale(1.2);
+  }
+
+  25% {
+    transform: scale(1.15);
+  }
+
+  35% {
+    transform: scale(1.25);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
