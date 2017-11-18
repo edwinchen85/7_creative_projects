@@ -17,4 +17,17 @@ $(document).ready(function() {
     gutter: 0
   });
 
+  // SLICK SLIDER
+  $('.slider').slick({
+    autoplay: true,
+    autoplaySpeed: 1500,
+    arrows: true,
+    dots: false,
+    centerMode: true,
+    slidesToShow: 3,
+    fade: false,
+    prevArrow: '<button type="button" class="slick-prev">Prev</button>',
+    nextArrow: '<button type="button" class="slick-next">Next</button>'
+  });
+
 });
