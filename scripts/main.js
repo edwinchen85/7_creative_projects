@@ -8,6 +8,19 @@ $(document).ready(function() {
     $("body").toggleClass("scroll", (scrollFromTop > 350));
   });
 
+  // SMOOTH SCROLL
+  $('.menu li a[href^="#"]').on('click', function(e) {
+    e.preventDefault();
+
+    var target = $(this.hash);
+
+    if (target.length) {
+      $('html, body').stop().animate({
+        scrollTop: target.offset().top - 55
+      }, 1000);
+    }
+  });
+
   // MASONRY
   $('.grid').masonry({
     // Options
