@@ -510,7 +510,7 @@ footer h1 {
     bottom: 0;
     background: rgba(0,0,0,.72);
     z-index: 5;
-    display: block;
+    display: none;
   }
 
   .main-overlay::after {
@@ -535,6 +535,7 @@ footer h1 {
     max-width: 300px;
     z-index: 30;
     transform: translate3d(-100%, 0, 0);
+    transition: .3s;
   }
 
   nav.nav-wrapper ul li {
@@ -551,6 +552,20 @@ footer h1 {
 
   nav.nav-wrapper ul li a:hover {
     border-color: transparent;
+  }
+
+  body.menu-is-active .menu {
+    transform: translate3d(0, 0, 0);
+    display: block;
+    padding: 0 15px;
+  }
+
+  body.menu-is-active .main-overlay {
+    display: block;
+  }
+
+  body.menu-is-active .menu-trigger {
+    display: none;
   }
 
 }
