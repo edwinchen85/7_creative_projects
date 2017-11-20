@@ -510,7 +510,7 @@ footer h1 {
     display: block;
     z-index: 10;
     position: absolute;
-    right: 10px;
+    right: 20px;
     top: 15px;
   }
 
@@ -521,7 +521,7 @@ footer h1 {
     left: 0;
     bottom: 0;
     background: rgba(0,0,0,.72);
-    z-index: 5;
+    z-index: 6;
     display: none;
   }
 
@@ -533,7 +533,7 @@ footer h1 {
     content: "";
     position: fixed;
     top: 10px;
-    right: 10px;
+    right: 20px;
     z-index: 20;
   }
 
@@ -613,10 +613,18 @@ footer h1 {
     padding: 10px 0;
   }
 
+  .masonry-grid {
+    margin-right: auto;
+  }
+
   h2.sub-title {
     margin: 30px auto;
     font-size: 23px;
     line-height: 28px;
+  }
+
+  .grid-item {
+    width: initial;
   }
 
   section.beating-heart {
