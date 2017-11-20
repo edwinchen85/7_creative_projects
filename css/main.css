@@ -489,6 +489,18 @@ footer h1 {
 }
 
 /* RESPONSIVE MENU */
+@media only screen and (max-width: 1160px) {
+  section.beating-heart span {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .heart {
+    width: 50px;
+    margin: 0 20px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
 
   .menu-trigger {
