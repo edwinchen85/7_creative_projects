@@ -10,3 +10,5 @@ This course takes a deep dive into technologies like HTML5, CSS3, JavaScript and
 - Responsive slider with navigation: Using Slick Slider, we're going to be building a fully navigable, responsive slider. We'll also explore the customization limits of the library and how you can create your perfect slider.
 - Hidden Parallax Footer: Add a finishing touch to our website with this pure CSS3 footer, hidden deep inside the website!
 - Clean, modern, responsive menu: We're continuing the website production with making the sticky header fully responsive with a truly awesome and stylish responsive menu!
+
+[View demo site here.](http://edwinchen.co/7_creative_projects/)
