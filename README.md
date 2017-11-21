@@ -12,3 +12,5 @@ This course takes a deep dive into technologies like HTML5, CSS3, JavaScript and
 - Clean, modern, responsive menu: We're continuing the website production with making the sticky header fully responsive with a truly awesome and stylish responsive menu!
 
 [View demo site here.](http://edwinchen.co/7_creative_projects/)
+
+![Preview](screenshot.jpg)
